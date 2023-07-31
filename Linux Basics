@@ -1,0 +1,18 @@
+Linux is the clone of UNIX.
+Enterprise version REDHAT , Community Version Centos,
+Kdump generates the report if OS is crash.
+MSI, extension file ( Server prr software ko client machine prr push krna ho to uski extension .msi hoti h) or exe. local machine prr chlti h
+windows py file system FAT, NTFS,  or linux ka file system   xfs, vfs, zfs, ext3 ext4 
+Linux is a server, os, virus free, stable and easy to troubleshoot, customizable, cost effective.
+-----------Directory Structure-----------
+/etc  All configs files
+/home  Users Profiles
+/usr   Softwares
+/opt   optional 
+/var   Logs (reports/troubleshooting)
+/bin   binary All commands for normal user
+/sbin  Super binary Administration Commands
+/boot  kernel vmlinux
+/lib  Kernel Modules
+Kernel is the core part of OS    (OS kernel extension file  .dil
+
