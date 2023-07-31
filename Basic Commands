@@ -1,0 +1,82 @@
+~ sign shows the home directory of root user 
+Blue colors => Folders  While color => Files
+mkdir => Create Directory
+rmdir => Remove directory
+cd   =>  change directory
+cp   =>  copy command
+mv  =>    move file/folder
+ls  =>  list directory 
+wc  => word count 
+du = disk usage
+du -h => human readable
+ls .la  => shows hidden files
+ls -R   => list of all files and folders
+useradd  => adduser 
+userdel   => delete user
+passwd  username   => passwordchange
+ps -aux  => shows running process
+top  => shows running process
+use id command to show user is already exist or not
+user store in this file   /etc/passwd
+passwords store           /etc/shadow
+userdel -r  delete with complete data 
+normal user start from the id 1000
+vim , nano , mousepad (graphical)  file editor 
+grep -i  -i use for ignore case
+find 
+whereis   
+ls -ld   use for view basic property with permissions
+drwxr = d => directory nature of object
+-rwxr =>  - for file
+--------------Linux Piping-------------
+; command separator    cd /home ; mkdir test ; ls
+>  ouptput redirector   ls -R > /test              
+>>  output append      grep ftp  /etc/services  >>  ftp
+|   contanicate command    ps -aux | grep chrome 
+
+-----------------------Permissions-----------------------
+chmod       changemod              chmod a+rwx    for all users       chmod a-rwx  denied all permission    chmod a+rwxt /d  t use for skity bit only allow owner to change 
+chown    change ownership
+chgrp     change group
+3 types of Permissions
+read, write, execute
+by default w permission off hoti hy   & local permission doesnt apply on root
+r-x   read only permission   only folders (By Default)
+4 = r  ,  2 = w , 1 = x , 0 = no permission
+sudo use to give admin privileges for normal user
+ { vim /etc/sudoers 
+   USER MACHINE = COMMANDS
+    ali    ALL = /usr/sbin/useradd
+               /usr/sbin/userdel
+}
+--------------------Compress------------------
+By Default tools  gzip, bzip2, tar
+For Backup use cronjobs
+Syntax 
+MIN   HOUR   DATE   MONTH  DAY-OF-WEEK   TASK
+0-59  0-23   1-31   1-12    0-7           command    0=> sunday
+
+-------------Software installations----------------
+yum install 
+dnf install   
+for centos & redhat
+
+apt install  for ubuntu, kali , parrot 
+
+-----------------------Basic Network Commands------------------------
+ifconfig   show ip 
+ifdown  adaptername    
+ifup adaptername 
+nmcli     cli base
+nmtui     graphical
+
+Services ko linux main daemon bhi bolty     like httpd, ftpd etc
+
+------------------------PORTS--------------------------
+Logical door of a service
+ssh = 22   telnet = 23   ftp = 20/21   smb = 445 ,  http= 80,  https=443, proxy 8080 , DNS =53,  DHCP 67/68, smtp = 23, pop3 =110, 
+imap = 143, RDP 3389,
+Port Listening = netstat -atnp 
+zombie process = dead process,  Kill processid  Kill -9 pid 
+
+---------------Run Levels -----------------------
