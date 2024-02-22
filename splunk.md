@@ -14,4 +14,13 @@ Data generated from this resoucres will be in the form of unstructured data.
  PRIMARY COMPONENETS:
  1- Forwarder: is responsible to collecting the data and forward into other splunk instance and indexers
  2- indexers: helps us store and index the data howover we cant access the data from indexers  need to have
- 3- Search heads: help us to analyze 
+ 3- Search heads: help us to analyze & visualize to report the data
+ Splunk help us users to leverage the machine data in analyzing the **system performance** identify the **failure condition in systems**
+ monitoring the **business matrix** , **investigate the data** creating dashboard storing the data for future referneces.
+Data stored in machines in the form of logs, databases, views, API's. Extract data using SPL Search processing language, all data in the machines stored in the form of event.
+
+**Benefits of Splunk**
+1- input the data in any form
+2- splunk searches term with the help of SPL language
+3- data directly store in splunk file sys
+4- not a sinple point of failure is encountered 
