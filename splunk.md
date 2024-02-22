@@ -9,4 +9,9 @@ Data generated from this resoucres will be in the form of unstructured data.
 ![image](https://github.com/farazahmee/farazahmee/assets/141009689/8c591f97-4b0d-4889-9963-f98c6517b125)
 
  Let say in this image we have a system failure and its very difficult to find which step is system failure. So the data is unstructured format 
- So in this case we need a tool to understand machine data that identify the 
+ So in this case we need a tool to understand machine data that identify the where the hardware and software has failed. 
+ Splunk is a tool which the machine data is processed to extract data onto human readable format.that is help us to analyze the problem.
+ PRIMARY COMPONENETS:
+ 1- Forwarder: is responsible to collecting the data and forward into other splunk instance and indexers
+ 2- indexers: helps us store and index the data howover we cant access the data from indexers  need to have
+ 3- Search heads: help us to analyze 
